@@ -12,25 +12,23 @@ const ExpenseForm = ({
     <form onSubmit={handleSubmit}>
       <div className="form-center">
         <div className="form-group">
-          <label htmlFor="expense">charge</label>
+          <label htmlFor="expense">DEPENSE</label>
           <input
             type="text"
             className="form-control"
             id="charge"
             name="charge"
-            placeholder="e.g. rent"
             value={charge}
             onChange={handleCharge}
           />
         </div>
         <div className="form-group">
-          <label htmlFor="amount">amount</label>
+          <label htmlFor="amount">MONTANT</label>
           <input
             type="number"
             className="form-control"
             id="amount"
             name="amount"
-            placeholder="e.g. 100"
             value={amount}
             onChange={handleAmount}
           />
